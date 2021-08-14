@@ -13,19 +13,18 @@ const About = () => {
       <StyledImage src={codingSvg} alt="coding" />
       <HeaderContainer>
         <h1>
-          About Software Developer <span>Ed Ben</span>
+          About DevOps Engineer <span>Ahmet Tortumlu</span>
         </h1>
       </HeaderContainer>
       <InfoContainer>
-        <h1>I'm Ed.</h1>
-        <h2>I’m currently learning Full-Stack Development Languages.</h2>
+        <h1>I'm Ahmet.</h1>
+        <h2>I’m currently working at DeepInfo as Devops Engineer.</h2>
         <h2>
-          I've already known JS, ReactJS, ReactNative, NodeJS, MongoDB,SQL,
-          Python, AWS Services.
+          I've worked on different cloud service providers such as GCP, Digital Ocean and AWS Services. 
         </h2>
         <h2>
-          <a href="mailto:edwardbenedict92@gmail.com">Send email</a> :
-          edwardbenedict92@gmail.com
+          <a href="mailto:ahmettortumlu25@gmail.com">Send email</a> :
+          ahmettortumlu25@gmail.com
         </h2>
       </InfoContainer>
     </AboutContainer>
