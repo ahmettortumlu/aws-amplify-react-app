@@ -1,4 +1,40 @@
-# Getting Started with Create React App
+# DEVOPS LIFE CYCLE
+
+## Why We need Cloud?
+
+* Early developments was doing make your changes, and send it to serve on-demand servers, maybe yours local servers, 
+
+* Today there are many company which have its own servers, and this companies servers are running 7/24 and as you expect must be serve their apps without down time.
+
+* But maintenance is not simple for servers, you should take care them with high check time. When you need any more resource buying it and attaching these resources to existing servers which runs you application process is risky and time consuming.
+
+* Solution is simple Cloud Services. Cloud Services helps you create infrastructure for your development sycles.
+
+* Takes care your servers health with very high live ratio. And you will not need to buy them, you will rent it. 
+
+* You will fasten with cloud services and you will need less peaople to maintain this services.
+
+* Now you have a cloud, but what you need before deployment?
+
+## What is Deployment and Deployment Models
+
+* You will need to make decisions for deployments. Where to deploy, when to deploy, how to deploy etc.
+
+* First question is where? I mean which operating system serve your applications. Windows, Linux or Mac. Most applications serving at Linux but ofcours you will have enough reason to deploy your app to Windows or Mac. For example for your iOS application you will need a Mac Computer to Serve it.
+
+* The other question is When to deploy? Devops answers to this question. While you are learning software you are working on your local computers and when you up your applications with different commands suc as `python manage.py runserver` or `npm start` you are actually deploying your app to your local machines. 
+
+* But when we want to create a product or while we are working someones product we need to work on cloud providers' servers. We can deploy our products with the same way. 
+1. Connect to server,
+2. Clone your source codes,
+3. Provide appropriate environment variables to this server,
+4. Run your commands to up your project.
+
+* This way sounds simple but you and your team will develop your applications almost every hour. Each time when we did changes we will need to go to server and run the commands again and this sycle should process every time with minimum downtime and maximum speed. You will need to see your newly created feeatures very fast to fix issues or develop new features. 
+
+* Continuous Integration and Continous Delivery comes at this point (CI/CD). We will create a structure and this structure will understand our commits, and check the differences and conflicts, test the new feature, if all passes builds our app and then deploys. We  will write this steps at the beginning and this process will continue wthout any touch. 
+
+# React App
 
 ENV File  
 REACT_APP_API_KEY=  
